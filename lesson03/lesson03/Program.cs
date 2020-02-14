@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace lesson03
 {
@@ -6,23 +8,34 @@ namespace lesson03
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
         }
     }
 
-    public class Rotator
+    public class PlayWithArrays
     {
+        public int[] ReverseArray(int[] arr)
+        {
+          
+            return arr;
+        }
+
         public int[] Rotate(int[] arr)
         {
             return arr;
         }
-    }
-
-    public class Finder
-    {
         public int[] Smallest(int[] arr1, int[] arr2, int[] arr3)
         {
             return arr1;
+        }
+
+        public int SumUpArray(int[] arr)
+        {
+        
+            return 666;
+        }
+        public int[] FlattenArrays(int[][] arrayToFlatten)
+        {
+            return arrayToFlatten[0];
         }
     }
 
@@ -34,24 +47,43 @@ namespace lesson03
         }
     }
 
-    public class Sorter
+    public class PlayWithLists
     {
-        public TeamMember[] SortArrayOfObjectsByAge(TeamMember[] arr)
+        public List<string> GrowList(List<string> list)
         {
-            return arr;
+            
+            return list;
         }
-    }
-    public class TeamMember
-    {
-        string name {get; set;}
-        string drink {get; set;}
-        int age {get; set;}
 
-        public TeamMember(string name, string drink, int age)
+        public List<string> ShrinkList(List<string> list)
         {
-            this.name = name;
-            this.drink = drink;
-            this.age = age;
+            return list;
+        }
+
+        public List<int> GetSmallNumbers(List<int> list, int threshold)
+        {
+            return list;
+            
+        }
+        public List<string> SortList(List<string> list)
+        {
+            return list;
+        }
+            public List<string> SortListDesc(List<string> list)
+        {
+            return list;
+        }
+
+        public int SumUpList(List<int> list)
+        {
+            return 666;
+        }
+
+        public List<int> FlattenLists(List<List<int>> listToFlatten)
+        {
+            
+            return listToFlatten.First();
+
         }
     }
   
